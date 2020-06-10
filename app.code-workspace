@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"deno.enable": true,
+		"editor.formatOnSave": true,
+		"[typescript]": {
+			"editor.defaultFormatter": "axetroy.vscode-deno",
+		},
+	}
+}
