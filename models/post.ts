@@ -1,3 +1,5 @@
+// テスト用のファイルだから関係ないよ
+
 import { v4 } from "https://deno.land/std/uuid/mod.ts";
 
 export class Post {

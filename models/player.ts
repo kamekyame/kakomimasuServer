@@ -1,12 +1,12 @@
 import { addPlayer } from "./room.ts";
 
 export class Player {
-  public token: string;
+  public playerToken: string;
   public roomId: string;
 
-  constructor(public name: string, public spec: string) {
+  constructor(public playerName: string, public spec: string) {
     const [roomid_, token_] = addPlayer();
-    this.token = token_;
+    this.playerToken = token_;
     this.roomId = roomid_;
   }
 }
